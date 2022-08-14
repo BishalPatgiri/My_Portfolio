@@ -1,0 +1,258 @@
+*,*::after,*::before{
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  gap: 20px;
+  /* background-color: #121C2D; */
+  background: linear-gradient(to bottom right,#020210,#0A3638);
+  
+}
+.list{
+  list-style-type: none;
+  padding: 15px;
+  font-family: serif;
+  font-size: 20px;
+  color: white;
+  border-top: .2px solid rgb(95, 92, 92);
+  border-bottom: .2px solid rgb(95, 92, 92);
+}
+.list:hover{
+  color:#64FFDA;
+}
+
+#intro>h1{
+  font-size:3.5em;
+  font-family:monospace;
+  line-height:25px;
+  word-spacing: -10px;
+}
+.defaultColor{
+  color: #64FFDA;
+}
+.profile{
+  border-radius: 50%;
+  height: 320px;
+  width: 24%;
+  background-image: url("../public/Mine2.jpg");
+  background-size: cover;
+  margin-top: 7%;
+}
+.logo{
+  color: #64FFDA;
+  font-size: 28px;
+  transition: font-size 500ms;
+}
+.logo:hover{
+  font-size: 34px;
+}
+
+.name{
+  transform: rotate(45deg);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 120%;
+  animation: nam 2s linear forwards;
+  animation-delay: 2s;
+}
+@keyframes nam{
+  0%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+  }
+
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation: gayab 800ms linear forwards;
+  animation-delay: 1500ms;
+}
+@keyframes gayab{
+0%{
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+}
+100%{
+  opacity: 0.2;
+  box-shadow: rgba(145, 213, 240, 0.928) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  top: 12%;
+  left: 5%;
+}
+}
+
+#image{
+  position: absolute;
+  top: 6.5%;
+  left: 1%;
+  /* display: none; */
+  
+}
+
+#image>div{
+  background-image: url("../public/LogoMe.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: logo 1s linear forwards;
+  animation-delay: 2300ms;
+}
+@keyframes logo{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+.main{
+  transform: rotate(45deg);
+  position: relative;
+  width: 120px;
+  height: 60px;
+  display: inline-block;
+  text-align: center;
+}
+.main::before{
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 2px solid transparent;
+  animation-delay: 1.5s;
+  animation: hey 1500ms linear forwards;
+}
+.main::after{
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: -2px;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 3px solid transparent;
+  animation-delay: 1.5s;
+  animation: hey2 1500ms linear forwards;
+}
+
+#nameLogo a{
+  position: relative;
+  text-decoration: none;
+  width: 120px;
+  height: 60px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #64FFDA;
+  transform: rotate(270deg);
+  padding: 8px;
+}
+#nameLogo a::before{
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 3px solid transparent;
+  animation-delay: 1.5s;
+  animation: hey 1500ms linear forwards;
+}
+
+@keyframes hey {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: #64FFDA;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: #64FFDA;
+    border-right-color: #64FFDA;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    border-top-color: #64FFDA;
+    border-right-color: #64FFDA;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+}
+
+#nameLogo a::after{
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: -2px;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 3px solid transparent;
+  animation-delay: 1.5s;
+  animation: hey2 1500ms linear forwards;
+}
+@keyframes hey2 {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: #64FFDA;
+  }
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #64FFDA;
+    border-left-color: #64FFDA;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #64FFDA;
+    border-left-color: #64FFDA;
+  }
+}
+
+#Hbody{
+  opacity: 0.05;
+  animation: main 2s linear forwards;
+  animation-delay: 2.5s;
+}
+@keyframes main{
+  0%{
+    opacity: 0.05;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.skillLogo{
+  font-size: 35px;
+}
