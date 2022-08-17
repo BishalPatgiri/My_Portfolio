@@ -4,7 +4,7 @@ import {faHackerrank,faLinkedin,faGithub,faFacebook} from "@fortawesome/free-bra
 
 export const Intro = () => {
   return (
-    <div id="intro" style={{marginTop:"7%",width:"70%"}}>
+    <div id="intro" style={{width:"70%"}}>
         <h1>Hi,</h1>
         <h1>I am, <span className='defaultColor'>B</span>ishal <span className='defaultColor'>P</span>atgiri</h1>
         <h1>Full Stack Web Developer</h1>
@@ -13,7 +13,7 @@ export const Intro = () => {
         </p>
         <div style={{marginTop:"32px"}}>
           <a style={{border:"1px solid #64FFDA",color:"#64FFDA",padding:"6px 20px",borderRadius:"20%",textDecoration:"none"}} href="">Resume</a>
-          <div style={{display:"flex",gap:"20px",marginTop:"20px"}}>
+          <div style={{display:"flex",gap:"20px",marginTop:"25px"}}>
             <a className='logo' href="https://github.com/BishalPatgiri">
               <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
             </a>
