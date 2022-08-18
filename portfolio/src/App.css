@@ -20,7 +20,7 @@
   border-bottom: .2px solid rgb(95, 92, 92);
 }
 .list:hover{
-  color:#64FFDA;
+  color:#64FFDA; 
 }
 
 #intro>h1{
@@ -29,20 +29,53 @@
   line-height:25px;
   word-spacing: -10px;
 }
+#intro span{
+  cursor: pointer;
+}
+#intro span:hover{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  animation: letter 1.5s linear forwards;
+}
 .defaultColor{
   color: #64FFDA;
 }
+@keyframes letter{
+  0%{
+  transform: rotate(0deg);
+  top: 0px;
+  left: 0px;
+  }
+  33%{
+    top: -7px;
+    left: 7px;
+
+  }
+  66%{
+    top: 5px;
+    left: -5px;
+  }
+  100%{
+    top: 0px;
+    left: 0;
+  
+
+  }
+}
+
 .profile{
   border-radius: 50%;
-  height: 320px;
-  width: 24%;
+  height: 300px;
+  width: 22%;
   background-image: url("../public/Mine2.jpg");
   background-size: cover;
 }
 .logo{
   color: #64FFDA;
   font-size: 28px;
-  transition: font-size 500ms;
+  transition: font-size 300ms;
 }
 .logo:hover{
   font-size: 34px;
@@ -252,3 +285,113 @@
 .skillLogo{
   font-size: 35px;
 }
+
+#contact input{
+    background-image: linear-gradient(to right, black,#376E79);
+    height: 50px;
+    font-size: 16px;
+    color: #b1aeae;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+#contact #inLine{
+  display: flex;
+  gap: 3%;
+}
+#contact #message{
+  min-height: 150px;
+}
+#contact button{
+  margin-top: 10px;
+  height: 45px;
+  font-size: 16px;
+  padding: 2px 15px;
+  float: right;
+  background: #0b2835;
+  border-radius: 5%;
+  color: whitesmoke;
+  border: 1px solid #64FFDA;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow:#64FFDA 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#skillDiv>div{
+border: 1px solid #64FFDA;
+border-radius: 10px;
+box-shadow: #64FFDA 0px 5px 15px;
+width: 80%;
+padding: 5%;
+transform: scale(1);
+transition: 1s transform;
+}
+#skillDiv>div:hover{
+  transform: scale(1.2);
+}
+.projectDiv{
+  padding:6%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 15px;
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: 1s top;
+  transition: 1s left;
+}
+.projectDiv:hover{
+  top: 10px;
+  left: 10px;
+  box-shadow: rgba(105, 147, 203, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.active{
+color: #64FFDA;
+border-left: 4px solid #64FFDA;
+padding-left: 10px;
+}
+.title{
+  font-size:3.2em;
+  letter-spacing: -.2px;
+  word-spacing: -4px;
+  font-family:monospace;
+  color:#64FFDA;
+  text-shadow: 4px 4px black;
+}
+
+.modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+/* 
+.logo {
+  height: 90px;
+  width: 300px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 130px;
+  right: 20px;
+  animation-name: show;
+  animation-duration: 4s;
+}
+@keyframes show {
+  0% {
+    bottom: 180px;
+  }
+  40% {
+    bottom: 130px;
+  }
+  60% {
+    bottom: 145px;
+  }
+  75% {
+    bottom: 130px;
+  }
+  90% {
+    bottom: 135px;
+  }
+  100% {
+    bottom: 130px;
+  }
+} */
