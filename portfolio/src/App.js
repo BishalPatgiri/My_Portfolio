@@ -10,9 +10,8 @@ function App() {
       <div id='Hbody'>
         <Navbar/>
         <HomePage/>
-      </div>   
+      </div> 
     </div>
   );
 }
-
 export default App;

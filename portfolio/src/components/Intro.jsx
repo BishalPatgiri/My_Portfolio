@@ -5,10 +5,10 @@ export const Intro = () => {
   return (
     <div style={{display:"flex",borderBottom:"1px solid white",padding:"10% 0"}}>
       <ProfileImage/>
-      <div id="intro" style={{width:"78%",padding:"0 4%"}}>
-        <h1><span>H</span><span>i</span>,</h1>
-        <h1><span>I</span> <span>am</span>, <span className='defaultColor'>B</span><span>i</span><span>s</span><span>h</span><span>a</span><span>l</span> <span className='defaultColor'>P</span><span>a</span><span>t</span><span>g</span><span>i</span><span>r</span><span>i</span></h1>
-        <h1>Full Stack Web Developer</h1>
+      <div id="intro" style={{width:"78%",padding:"0 4%",lineHeight:"30px"}}>
+        <h1><span>H</span><span>i</span><span>,</span></h1>
+        <h1><span>I</span> <span>am</span><span>,</span> <span className='defaultColor'>B</span><span>i</span><span>s</span><span>h</span><span>a</span><span>l</span> <span className='defaultColor'>P</span><span>a</span><span>t</span><span>g</span><span>i</span><span>r</span><span>i</span></h1>
+        <h1><span>F</span><span>u</span><span>ll</span> <span>S</span><span>t</span><span>a</span><span>c</span><span>k</span> <span>W</span><span>e</span><span>b</span> <span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span></h1>
         <p style={{fontSize:"20px",fontFamily: "Open Sans",color:"#90A5A6",letterSpacing:"2px",paddingRight:"20%",lineHeight:"30px"}}>
           Passionate about problem solving, Frontend Web Development. Loves to buid cool projects and work in a team. I want to achieve global recognition and exposure with my skillset, toolset and mindset.
         </p>

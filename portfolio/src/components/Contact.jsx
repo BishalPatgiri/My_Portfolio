@@ -28,8 +28,8 @@ export const Contact = () => {
       </div>
       <div style={{width:"50%",paddingRight:"10%"}} id='location'>
         <h1 className='title'>Locate Me</h1>
-        <div>
-          <iframe style={{boxShadow: "rgba(0, 0, 0, 0.8) 0px 20px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px",borderRadius:"15px"}} title='map' width="500" height="400" id="gmap_canvas" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Guwahati&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed">
+        <div width="100%">
+          <iframe style={{boxShadow: "rgba(0, 0, 0, 0.8) 0px 20px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px",borderRadius:"15px"}} title='map' width="500" height="400" id="gmap_canvas" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?q=Guwahati&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed">
           </iframe>
         </div>
       
