@@ -13,7 +13,7 @@ export const Intro = () => {
           Passionate about problem solving, Frontend Web Development. Loves to buid cool projects and work in a team. I want to achieve global recognition and exposure with my skillset, toolset and mindset.
         </p>
         <div style={{marginTop:"32px"}}>
-          <a style={{border:"1px solid #64FFDA",color:"#64FFDA",padding:"10px",borderRadius:"10px",textDecoration:"none", boxShadow:"#64FFDA 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"}} href="https://drive.google.com/file/d/1u9hxfa35ijyX_rzoymMjTLaJvjyem5Pd/view">Resume</a>
+          <a target={"blank"} style={{border:"1px solid #64FFDA",color:"#64FFDA",padding:"10px",borderRadius:"10px",textDecoration:"none", boxShadow:"#64FFDA 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"}} href="https://drive.google.com/file/d/1u9hxfa35ijyX_rzoymMjTLaJvjyem5Pd/view">Resume</a>
         </div>
     </div>
     </div>

@@ -15,16 +15,16 @@ export const Navbar = () => {
           <li className='list'><Link activeClass="active" to="contact" spy={true} smooth={true}>Contact</Link></li>
         </ul>
         <div style={{display:"flex",flexDirection: "column",gap:"10px",marginTop:"25px"}}>
-            <a className='logo' href="https://github.com/BishalPatgiri">
+            <a className='logo' target={"blank"} href="https://github.com/BishalPatgiri">
               <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
             </a>
-            <a className='logo' href="https://www.linkedin.com/in/bishal-patgiri-a80704198/">
+            <a className='logo' target={"blank"} href="https://www.linkedin.com/in/bishal-patgiri-a80704198/">
             <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
             </a>
-            <a className='logo' href="https://www.hackerrank.com/bishalpatgiri67">
+            <a className='logo' target={"blank"} href="https://www.hackerrank.com/bishalpatgiri67">
             <FontAwesomeIcon icon={faHackerrank}></FontAwesomeIcon>
             </a>
-            <a className='logo' href="https://facebook.com">
+            <a className='logo' target={"blank"} href="https://facebook.com">
             <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
             </a>
           </div>

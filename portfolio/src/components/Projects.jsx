@@ -25,10 +25,10 @@ export const Projects = () => {
           <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt=""/>
           </div>
           <div style={{display:"flex",justifyContent:"space-between"}}>
-            <a href="https://github.com/BishalPatgiri/SEPHORA-E-commerce-Website" style={{textDecoration:"none",border:"1px solid white",color:"white",padding:"6px",borderRadius:"8px"}}>
+            <a target={"blank"} href="https://github.com/BishalPatgiri/SEPHORA-E-commerce-Website" style={{textDecoration:"none",border:"1px solid white",color:"white",padding:"6px",borderRadius:"8px"}}>
             <FontAwesomeIcon style={{color:"white",fontSize:"25px",marginRight:"10px"}} icon={faGithub}></FontAwesomeIcon> GitHub
             </a>
-            <a href="https://storied-marzipan-b1c3f6.netlify.app/" style={{textDecoration:"none",border:"1px solid white",color:"white",padding:"6px",borderRadius:"8px"}}>Delployed</a>
+            <a target={"blank"} href="https://storied-marzipan-b1c3f6.netlify.app/" style={{textDecoration:"none",border:"1px solid white",color:"white",padding:"6px",borderRadius:"8px"}}>Delployed</a>
           </div>
         </div>
         <div className='projectDiv'>
@@ -42,10 +42,10 @@ export const Projects = () => {
           <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt=''/>
           </div>
           <div style={{display:"flex",justifyContent:"space-between"}}>
-          <a href="https://github.com/BishalPatgiri/Geekbuying-E-Commerce" style={{textDecoration:"none",border:"1px solid white",color:"white",padding:"6px",borderRadius:"8px"}}>
+          <a target={"blank"} href="https://github.com/BishalPatgiri/Geekbuying-E-Commerce" style={{textDecoration:"none",border:"1px solid white",color:"white",padding:"6px",borderRadius:"8px"}}>
             <FontAwesomeIcon style={{color:"white",fontSize:"25px",marginRight:"10px"}} icon={faGithub}></FontAwesomeIcon> GitHub
             </a>
-            <a href="https://endearing-lebkuchen-37c83d.netlify.app/" style={{marginTop:"4px",textDecoration:"none",border:"1px solid white",color:"white",padding:"6px",borderRadius:"8px"}}>Delployed</a>
+            <a target={"blank"} href="https://endearing-lebkuchen-37c83d.netlify.app/" style={{marginTop:"4px",textDecoration:"none",border:"1px solid white",color:"white",padding:"6px",borderRadius:"8px"}}>Delployed</a>
           </div>
         </div>
         <div className='projectDiv'>
@@ -59,10 +59,10 @@ export const Projects = () => {
           <FontAwesomeIcon style={{color:"purple",fontSize:"48px",marginRight:"10px"}} icon={faReact}></FontAwesomeIcon>
           </div>
           <div style={{display:"flex",justifyContent:"space-between"}}>
-          <a href="https://github.com/BishalPatgiri/Naturesbasket-Clone" style={{textDecoration:"none",border:"1px solid white",color:"white",padding:"6px",borderRadius:"8px"}}>
+          <a target={"blank"} href="https://github.com/BishalPatgiri/Naturesbasket-Clone" style={{textDecoration:"none",border:"1px solid white",color:"white",padding:"6px",borderRadius:"8px"}}>
             <FontAwesomeIcon style={{color:"white",fontSize:"25px",marginRight:"10px"}} icon={faGithub}></FontAwesomeIcon> GitHub
             </a>
-            <a href="https://beautiful-empanada-207bf8.netlify.app/" style={{marginTop:"4px",textDecoration:"none",border:"1px solid white",color:"white",padding:"6px",borderRadius:"8px"}}>Delployed</a>
+            <a target={"blank"} href="https://beautiful-empanada-207bf8.netlify.app/" style={{marginTop:"4px",textDecoration:"none",border:"1px solid white",color:"white",padding:"6px",borderRadius:"8px"}}>Delployed</a>
           </div>
         </div>
       </div>
