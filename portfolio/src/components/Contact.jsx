@@ -6,9 +6,9 @@ export const Contact = () => {
     alert("Message Sent Successfully")
   }
   return (
-    <div id="contact" style={{display:"flex",justifyContent:"space-between",padding:"6% 0",borderTop:"1px solid white",marginTop:"40px"}}>
-      <div style={{width:"45%"}}>
-      <h1 className='title'>Contact Me</h1>
+    <div id="contactMain">
+      <div id='contactMe'>
+      <h1 id='title' className='title'>Contact Me</h1>
       <p style={{marginBottom:"40px",fontFamily: "Open Sans",fontSize:"18px",lineHeight:"26px"}}>I'm interested in making new projects,freelance opportunities - especially ambitious or large projects. However, if you have other request or question, don't hesitate to use the form.</p>
       <form action="">
         <div id='inLine'>
@@ -26,10 +26,10 @@ export const Contact = () => {
         </div>
       </form>
       </div>
-      <div style={{width:"50%",paddingRight:"10%"}} id='location'>
-        <h1 className='title'>Locate Me</h1>
+      <div id='location'>
+        <h1 id='title' className='title'>Locate Me</h1>
         <div width="100%">
-          <iframe style={{boxShadow: "rgba(0, 0, 0, 0.8) 0px 20px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px",borderRadius:"15px"}} title='map' width="500" height="400" id="gmap_canvas" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?q=Guwahati&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed">
+          <iframe style={{boxShadow: "rgba(0, 0, 0, 0.8) 0px 20px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px",borderRadius:"15px"}} title='map' width="100%" height="400" id="gmap_canvas" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?q=Guwahati&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed">
           </iframe>
         </div>
       

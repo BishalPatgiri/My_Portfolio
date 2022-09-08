@@ -23,12 +23,332 @@
   color:#64FFDA; 
 }
 
-#intro>h1{
-  font-size:3.5em;
+.active{
+  color: #64FFDA;
+  border-left: 4px solid #64FFDA;
+  padding-left: 10px;
+  }
+#intro{
+  width:78%;
+  padding:0 4%
+}
+
+#intro h1{
+  /* font-size:3.5em; */
+  font-size: calc(.2rem + 3.3vw);
   font-family:monospace;
   line-height:25px;
   word-spacing: -10px;
+  text-overflow: clip;
+  padding: 6px 0;
+  background-color: #052330;
+  border-bottom-right-radius: 50px;
 }
+/* 
+#container>h1{
+  position: relative;
+} */
+/* 
+#container>h1::before{
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background-color: #052330; 
+  border-left:4px solid #64FFDA;
+  animation: intr 4s steps(24) infinite;
+}
+@keyframes intr{
+  40%,60%{
+      left: 47%;
+  }
+  100%{
+      left:0%
+  }
+} */
+
+#intro p{
+  font-size:22px;
+  font-family: Open Sans;
+  color:#7cb9bc;
+  letter-spacing:2px;
+  padding-right:20%;
+  line-height:32px;
+}
+#introMain{
+  display:flex;
+  border-bottom:1px solid white;
+  padding:10% 0;
+}
+.profile{
+  border-radius: 50%;
+  height: calc(50px+50px);
+  width: 100%;
+}
+
+#projectRes{
+  width: 78%;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:5%;
+  row-gap: 30px;
+  text-align:center;
+  margin:auto;
+}
+
+@media (min-width: 1200px) {
+  #intro h1 {
+    font-size: 3.8em;
+  }
+  .profile {
+    height: 310px;
+  }
+}
+
+#image{
+  position: fixed;
+  top: 6.5%;
+  left: 1%; 
+}
+
+#image img{
+  height: 100% ;
+  width: 100%;
+}
+
+
+.content{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation: gayab 800ms linear forwards;
+  animation-delay: 1500ms;
+}
+@keyframes gayab{
+0%{
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+}
+100%{
+  opacity: 0.2;
+  box-shadow: rgba(145, 213, 240, 0.928) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  top: 12%;
+  left: 5%;
+}
+}
+
+.projectDiv>.projectImp{
+  height:250px;
+  width:100% 
+}
+#contactMain{
+  display:flex;
+  justify-content:space-between;
+  padding:6% 0;
+  border-top:1px solid white;
+  /* margin-top:40px; */
+  flex-direction: row;
+}
+#contactMe{
+  width:45%;
+}
+#location{
+  width:50%;
+  padding-right:10%
+}
+#skillDiv{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:8%;
+  font-size:22px;
+  row-gap:30px;
+  text-align:center;
+  width:68%;
+  padding:0 4%
+}
+
+@media only screen and (max-width: 950px) {
+  #intro h1{
+    word-spacing: -5px;
+  }
+  #image{
+    width: 117px;
+  }
+   #image img{
+    width: 75%;
+  }
+  .list{
+    font-size: 16px;
+   }
+   #intro p{
+    font-size: 20px;
+    line-height: 30px;
+  }
+   .about p{
+    font-size: 19px;
+    line-height: 30px;
+   }
+   #skillDiv p{
+    font-size: 15px;
+   }
+   #title{
+    font-size: 2.8em;
+  }
+  #projectRes{
+    width: 85%;
+    /* margin-left: 30px; */
+    margin: auto;
+  }
+  .projectDiv>.projectImp{
+    height:220px;
+  }
+  /* #contactMain{
+    margin-top: 60px;
+  } */
+} 
+
+
+@media only screen and (max-width: 720px) {
+  #intro h1{
+    word-spacing: -4px;
+  }
+  #image{
+    width: 90px;
+  }
+  #image img{
+   width: 57%;
+ }
+ .list{
+  font-size: 13px;
+ }
+ .main{
+      opacity: 0;
+ }
+ #intro p{
+  font-size: 18px;
+  line-height: 24px;
+  padding-right: 15%;
+}
+ .about p{
+  font-size: 16px;
+  line-height: 24px;
+ }
+ #skillDiv p{
+  font-size: 12px;
+  gap: 7%;
+ }
+#title{
+  font-size: 2.4em;
+}
+#contact p{
+  font-size: 10px;
+}
+#projectRes{
+  width: 92%;
+  /* margin-left: 18px; */
+  margin: auto;
+}
+.projectDiv>.projectImp{
+  height:190px;
+}
+/* #contactMain{
+  margin-top: 70px;
+} */
+#skillDiv{
+  width: 74%;
+}
+} 
+
+
+@media only screen and (max-width: 540px) {
+  #intro h1{
+    word-spacing: -5px;
+  }
+  #introMain{
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+  }
+  #intro{
+    width: 88%;
+    padding: 0;
+  }
+  .profile{
+    width: 120px;
+    height: 150px;
+  }
+
+  .content{
+    width: 95px;
+  }
+  #image{
+    width: 67px;
+  }
+  #image img{
+   width: 42%;
+   height: 85%;
+ }
+ .list{
+  font-size: 13px;
+  padding: 12px 0px;
+ }
+ .active{
+  border-left: 3px solid #64FFDA;
+  padding-left: 3px;
+  }
+ .main{
+      opacity: 0;
+ }
+ #intro p{
+  width: 100%;
+  font-size: 16px;
+  line-height: 20px;
+  padding-right: 0;
+}
+ .about p{
+  font-size: 14px;
+  line-height: 20px;
+ }
+#title{
+  font-size: 2em;
+}
+#contact p{
+  font-size: 8px;
+}
+#projectRes{
+  width: 95%;
+  margin: auto;
+  grid-template-columns: repeat(1,1fr);
+  row-gap: 24px;
+}
+.projectDiv>.projectImp{
+  height:160px;
+}
+#contactMain{
+  /* margin-top: 180px; */
+  flex-direction: column;
+}
+#contactMe{
+  width:85%;
+  margin: auto;
+}
+#location{
+  width:85%;
+  margin: auto;
+  padding: 0;
+}
+#skillDiv{
+  grid-template-columns: repeat(2,1fr);
+  width: 80%;
+  gap: 4%;
+  row-gap: 20px;
+  padding-left: 10%;
+}
+} 
 #intro span{
   cursor: pointer;
 }
@@ -62,13 +382,7 @@
   }
 }
 
-.profile{
-  border-radius: 50%;
-  height: 300px;
-  width: 22%;
-  background-image: url("../public/Mine2.jpg");
-  background-size: cover;
-}
+
 .logo{
   color: #64FFDA;
   font-size: 28px;
@@ -95,38 +409,13 @@
 
 }
 
-.content{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  animation: gayab 800ms linear forwards;
-  animation-delay: 1500ms;
-}
-@keyframes gayab{
-0%{
-  opacity: 1;
-  top: 50%;
-  left: 50%;
-}
-100%{
-  opacity: 0.2;
-  box-shadow: rgba(145, 213, 240, 0.928) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  top: 12%;
-  left: 5%;
-}
-}
-
-#image{
-  position: fixed;
-  top: 6.5%;
-  left: 1%; 
-}
-
 #image>div{
-  background-image: url("../public/LogoMe.png");
+  height:80px;
+  width:150px;
+  padding:5px;
+  /* background-image: url("../public/LogoMe.png");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   opacity: 0;
   animation: logo 1s linear forwards;
   animation-delay: 2300ms;
@@ -187,6 +476,7 @@
   transform: rotate(270deg);
   padding: 8px;
 }
+
 #nameLogo a::before{
   content: "";
   position: absolute;
@@ -282,7 +572,6 @@
 .skillLogo{
   font-size: 35px;
 }
-
 #contact input{
     background-image: linear-gradient(to right, black,#376E79);
     height: 50px;
@@ -342,11 +631,6 @@ transition: 1s transform;
   top: 10px;
   left: 10px;
   box-shadow: rgba(105, 147, 203, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-.active{
-color: #64FFDA;
-border-left: 4px solid #64FFDA;
-padding-left: 10px;
 }
 .title{
   font-size:3.2em;

@@ -6,9 +6,9 @@ export const Skills = () => {
   return (
     <div style={{display:"flex",padding:"10% 0",borderBottom:"1px solid white"}}>
       <div style={{width:"22%"}}>
-      <h1 className='title'>The Skills I have</h1>
+      <h1 id='title' className='title'>The Skills I have</h1>
       </div>
-      <div id="skillDiv" style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)", gap:"8%",fontSize:"22px",rowGap:"30px",textAlign:"center",width:"68%",padding:"0 4%"}}>
+      <div id="skillDiv">
         <div>
         <FontAwesomeIcon style={{color:"green"}} className='skillLogo' icon={faHackerrank}></FontAwesomeIcon> 
         <p>Hacherrank</p>

@@ -1,9 +1,11 @@
 import React from 'react'
+import profilePic from "../Images/Mine2.jpg"
 
 export const ProfileImage = () => {
   return (
-    <div className='profile'>
+    <div >
         {/* Profile Picture */}
+        <img style={{}} className='profile' src={profilePic} alt="" />
     </div>
   )
 }

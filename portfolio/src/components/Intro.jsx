@@ -2,15 +2,38 @@ import React from 'react'
 import { ProfileImage } from './ProfileImage'
 
 export const Intro = () => {
+
+  // const text=document.getElementById("work")
+  // const textLoad=()=>{
+  //   setTimeout(()=>{
+  //     text.textContent="Full Stack Web Developer"
+  //   },0)
+
+  //   setTimeout(()=>{
+  //     text.textContent="Problem Solver"
+  //   },4000)
+
+  //   setTimeout(()=>{
+  //     text.textContent="Front-End Developer"
+  //   },8000)
+  // }
+  // useEffect(()=>{
+  //   textLoad()
+  // })
+
   return (
-    <div style={{display:"flex",borderBottom:"1px solid white",padding:"10% 0"}}>
+    <div id='introMain' style={{}}>
       <ProfileImage/>
-      <div id="intro" style={{width:"78%",padding:"0 4%",lineHeight:"30px"}}>
-        <h1><span>H</span><span>i</span><span>,</span></h1>
-        <h1><span>I</span> <span>am</span><span>,</span> <span className='defaultColor'>B</span><span>i</span><span>s</span><span>h</span><span>a</span><span>l</span> <span className='defaultColor'>P</span><span>a</span><span>t</span><span>g</span><span>i</span><span>r</span><span>i</span></h1>
-        <h1><span>F</span><span>u</span><span>ll</span> <span>S</span><span>t</span><span>a</span><span>c</span><span>k</span> <span>W</span><span>e</span><span>b</span> <span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span></h1>
-        <p style={{fontSize:"20px",fontFamily: "Open Sans",color:"#90A5A6",letterSpacing:"2px",paddingRight:"20%",lineHeight:"30px"}}>
-          Passionate about problem solving, Frontend Web Development. Loves to buid cool projects and work in a team. I want to achieve global recognition and exposure with my skillset, toolset and mindset.
+      <div id="intro" style={{}}>
+        <h1 style={{width:"12%"}}><span>H</span><span>i</span><span>,</span></h1>
+        <h1 style={{width:"80%"}}><span>I</span> <span>am</span><span>,</span> <span className='defaultColor'>B</span><span>i</span><span>s</span><span>h</span><span>a</span><span>l</span> <span className='defaultColor'>P</span><span>a</span><span>t</span><span>g</span><span>i</span><span>r</span><span>i</span></h1>
+        <div id='container'>
+            <h1 id='work' style={{width:"100%"}}>
+              <span>F</span><span>u</span><span>ll</span> <span>S</span><span>t</span><span>a</span><span>c</span><span>k</span> <span>W</span><span>e</span><span>b</span> <span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>
+            </h1>
+        </div>
+        <p>
+          Passionate about problem solving, Frontend Web Development. Loves to buid cool projects and work in a team. I want to achieve global recognition and exposure with my skillset, toolset and mindset. I believe in continuous learning and growth.
         </p>
         <div style={{marginTop:"32px"}}>
           <a target={"blank"} style={{border:"1px solid #64FFDA",color:"#64FFDA",padding:"10px",borderRadius:"10px",textDecoration:"none", boxShadow:"#64FFDA 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"}} href="https://drive.google.com/file/d/1u9hxfa35ijyX_rzoymMjTLaJvjyem5Pd/view">Resume</a>

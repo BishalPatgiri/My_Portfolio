@@ -7,15 +7,15 @@ import {faCss3, faGithub, faHtml5, faReact} from "@fortawesome/free-brands-svg-i
 
 export const Projects = () => {
   return (
-    <div style={{display:"flex",padding:"10% 0"}}>
+    <div style={{padding:"10% 0"}}>
       <div style={{width:"25%"}}>
-      <h1 className='title'>
+      <h1 id='title' style={{marginBottom:"20px"}} className='title'>
         My Projects
       </h1>
       </div>
-      <div style={{display:"grid",gridTemplateColumns:"repeat(2,1fr)",gap:"5%",textAlign:"center",width:"72%"}}>
+      <div id='projectRes' style={{}}>
         <div className='projectDiv'>
-          <img height="250px" width="100%" src={project1} alt="" />
+          <img className='projectImp' src={project1} alt="" />
           <p style={{fontSize:"25px",fontStyle:"italic"}}>Sephora.nnnow.com Clone</p>
           <p>This is an E-Commerce website for selling varity of beuty products accrross the world. We have designed the project in a group of 5 people and implemented almost all the basic functionalities.</p>
           <div style={{marginBottom:"20px"}}>
@@ -32,7 +32,7 @@ export const Projects = () => {
           </div>
         </div>
         <div className='projectDiv'>
-          <img height="250px" width="100%" src={project2} alt="" />
+          <img className='projectImp' src={project2} alt="" />
           <p style={{fontSize:"25px",fontStyle:"italic"}}>Geekbuying.com Clone</p>
           <p>This is also an E-Commerce website thatr provide a wide range of product for selling. I have designed this website along with my 4 group members. We have tried to implement all the functionalities of the website with the exact syling that has been used in it.</p>
           <div style={{marginBottom:"20px"}}>
@@ -49,7 +49,7 @@ export const Projects = () => {
           </div>
         </div>
         <div className='projectDiv'>
-          <img height="250px" width="100%" src={project3} alt="" />
+          <img className='projectImp' src={project3} alt="" />
           <p style={{fontSize:"25px",fontStyle:"italic"}}>Naturesbascket.com Clone</p>
           <p>As the name, this website is all about the neturel things that we have been eating in our day to day life. It provides all the varities of food and bevarages available in the marget. I have designed this website by my own withn a week by implementing most of the functionalities of the website.</p>
           <div style={{marginBottom:"20px"}}>

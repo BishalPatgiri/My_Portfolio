@@ -1,10 +1,13 @@
 import React from 'react'
+import nameLogo from "../Images/LogoMe.png"
 
 export const NameLogo = () => {
   return (
     <div id='nameLogo'>
         <div id="image">
-            <div style={{height:"75px",width:"150px",padding:"5px"}}></div>
+            <div>
+                <img src={nameLogo} alt="b" />
+            </div>
             {/* <img height="75px" width="125px" src="../" alt=""/> */}
         </div>
         <div className="content">
