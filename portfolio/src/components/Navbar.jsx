@@ -24,7 +24,7 @@ export const Navbar = () => {
             <a className='logo' target={"blank"} href="https://www.hackerrank.com/bishalpatgiri67">
             <FontAwesomeIcon icon={faHackerrank}></FontAwesomeIcon>
             </a>
-            <a className='logo' target={"blank"} href="https://facebook.com">
+            <a className='logo' target={"blank"} href="https://www.facebook.com/bishal.p.9">
             <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
             </a>
           </div>
