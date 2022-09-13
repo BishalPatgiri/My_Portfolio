@@ -22,9 +22,9 @@ export const Intro = () => {
   // })
 
   return (
-    <div id='introMain' style={{}}>
+    <div id='introMain'>
       <ProfileImage/>
-      <div id="intro" style={{}}>
+      <div id="intro">
         <h1 style={{width:"12%"}}><span>H</span><span>i</span><span>,</span></h1>
         <h1 style={{width:"80%"}}><span>I</span> <span>am</span><span>,</span> <span className='defaultColor'>B</span><span>i</span><span>s</span><span>h</span><span>a</span><span>l</span> <span className='defaultColor'>P</span><span>a</span><span>t</span><span>g</span><span>i</span><span>r</span><span>i</span></h1>
         <div id='container'>

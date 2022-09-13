@@ -1,6 +1,8 @@
 import React from 'react'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faHackerrank,faHtml5,faGithub,faCss3,faSquareGit,faReact,faNodeJs,faPython,faBootstrap} from "@fortawesome/free-brands-svg-icons"
+import express from "../Images/sale.png"
+import mongoDB from "../Images/mongo.png"
 
 export const Skills = () => {
   return (
@@ -52,6 +54,14 @@ export const Skills = () => {
         <div>
         <FontAwesomeIcon style={{color:"purple"}} className='skillLogo' icon={faBootstrap}></FontAwesomeIcon> 
         <p>Bootstrap</p>
+        </div>
+        <div>
+        <img className='customImage' src={express} alt="" />
+        <p style={{marginTop:"18px"}}>Express.js</p>
+        </div>
+        <div>
+        <img className='customImage' src={mongoDB} alt="" />
+        <p style={{marginTop:"18px"}}>MongoDB</p>
         </div>
       </div>
     </div>

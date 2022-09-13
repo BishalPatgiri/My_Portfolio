@@ -3,9 +3,9 @@ import profilePic from "../Images/Mine2.jpg"
 
 export const ProfileImage = () => {
   return (
-    <div >
+    <div id='profileDiv'>
         {/* Profile Picture */}
-        <img style={{}} className='profile' src={profilePic} alt="" />
+        <img className='profile' src={profilePic} alt="" />
     </div>
   )
 }

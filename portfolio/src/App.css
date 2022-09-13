@@ -30,7 +30,7 @@
   }
 #intro{
   width:78%;
-  padding:0 4%
+  padding:0 4%;
 }
 
 #intro h1{
@@ -68,7 +68,10 @@
       left:0%
   }
 } */
-
+.customImage{
+  height: 70px;
+  width: 70px;
+}
 #intro p{
   font-size:22px;
   font-family: Open Sans;
@@ -82,9 +85,12 @@
   border-bottom:1px solid white;
   padding:10% 0;
 }
+#profileDiv{
+  width: 22%;
+}
 .profile{
   border-radius: 50%;
-  height: calc(50px+50px);
+  height: 85%;
   width: 100%;
 }
 
@@ -98,14 +104,6 @@
   margin:auto;
 }
 
-@media (min-width: 1200px) {
-  #intro h1 {
-    font-size: 3.8em;
-  }
-  .profile {
-    height: 310px;
-  }
-}
 
 #image{
   position: fixed;
@@ -170,13 +168,21 @@
   width:68%;
   padding:0 4%
 }
+@media only screen and (max-width: 1200px) {
+.profile{
+  height: 80%;
+}
+}
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 960px) {
   #intro h1{
     word-spacing: -5px;
   }
   #image{
     width: 117px;
+  }
+  .profile{
+    height: 50%;
   }
    #image img{
     width: 75%;
@@ -222,6 +228,9 @@
   #image img{
    width: 57%;
  }
+ .profile{
+  height: 40%;
+}
  .list{
   font-size: 13px;
  }
@@ -266,7 +275,8 @@
 
 @media only screen and (max-width: 540px) {
   #intro h1{
-    word-spacing: -5px;
+    border: 1px solid rgb(35, 65, 65);
+    font-size: 22px;
   }
   #introMain{
     display: block;
@@ -281,7 +291,10 @@
     width: 120px;
     height: 150px;
   }
-
+  .customImage{
+    height: 50px;
+    width: 45px;
+  }
   .content{
     width: 95px;
   }
