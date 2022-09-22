@@ -2,11 +2,11 @@ import React from 'react'
 
 export const About = () => {
   return (
-    <div className='about' style={{display:"flex",padding:"8% 0%",borderBottom:"1px solid white"}}>
-      <div style={{width:"22%"}}>
+    <div className='about' style={{}}>
+      <div id='titleDiv' style={{}}>
       <h1 id='title' className='title'>Who am I ?</h1>
       </div>
-      <div id='' style={{width:"68%",padding:"0 0% 0 4%",fontSize:"20px",letterSpacing:"2px",lineHeight:"35px"}}>
+      <div id='des' style={{}}>
       <p style={{color:"#96E2D8"}}>
       Hello! My name is Bishal Patgiri, I am an Electronics and Communication Engineer by degree. Currently I am doing a Full Stack web development bootcamp from MasaiSchool,Bengaluru. I am a highly passionate front-end developer who loves making some cool designs,creating APIs and creating awasome applications. I am always open to do new things, to learn new new concepts of Frontend development.
       </p>

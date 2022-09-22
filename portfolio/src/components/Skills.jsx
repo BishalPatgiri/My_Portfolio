@@ -6,8 +6,8 @@ import mongoDB from "../Images/mongo.png"
 
 export const Skills = () => {
   return (
-    <div style={{display:"flex",padding:"10% 0",borderBottom:"1px solid white"}}>
-      <div style={{width:"22%"}}>
+    <div id="skillMain" style={{}}>
+      <div id='titleDiv'>
       <h1 id='title' className='title'>The Skills I have</h1>
       </div>
       <div id="skillDiv">
