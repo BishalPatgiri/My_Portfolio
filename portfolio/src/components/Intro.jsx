@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollAnimation from 'react-animate-on-scroll'
 import { ProfileImage } from './ProfileImage'
 // import { Typing } from "typing-effect-reactjs";
 
@@ -26,7 +27,11 @@ export const Intro = () => {
     <div id='introMain'>
       <ProfileImage/>
       <div id="intro">
-        <h1 style={{width:"12%"}}><span>H</span><span>i</span><span>,</span></h1>
+        <ScrollAnimation 
+        animateIn='flipInY'
+        animateOut='flipOutY'>
+          <h1 style={{width:"12%"}}><span>H</span><span>i</span><span>,</span></h1>
+        </ScrollAnimation>
         <h1 style={{width:"80%"}}><span>I</span> <span>am</span><span>,</span> <span className='defaultColor'>B</span><span>i</span><span>s</span><span>h</span><span>a</span><span>l</span> <span className='defaultColor'>P</span><span>a</span><span>t</span><span>g</span><span>i</span><span>r</span><span>i</span></h1>
         <div id='container'>
             <h1 id='work' style={{width:"100%"}}>

@@ -5,14 +5,19 @@ import project3 from "../Images/p3.png"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faCss3, faGithub, faHtml5, faReact} from "@fortawesome/free-brands-svg-icons"
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 export const Projects = () => {
   return (
-    <div style={{padding:"6% 0"}}>
+    <div style={{padding:"4% 0 8% 0",borderTop:"1px solid white"}}>
       <div id='titleDiv' style={{}}>
+      <ScrollAnimation
+        animateIn='flipInY'
+        animateOut='flipOutY'>
       <h1 id='title' style={{marginBottom:"20px"}} className='title'>
         My Projects
       </h1>
+      </ScrollAnimation>
       </div>
       <div id='projectRes' style={{}}>
       <div className='projectDiv'>
