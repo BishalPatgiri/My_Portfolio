@@ -107,8 +107,3 @@ export const Skills = () => {
   )
 }
 
-{/* <ScrollAnimation animateIn='flipInX'>
-  <h1>
-    afterAnimatedIn
-  </h1>
-</ScrollAnimation> */}

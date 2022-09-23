@@ -1,28 +1,8 @@
 import React from 'react'
 import ScrollAnimation from 'react-animate-on-scroll'
 import { ProfileImage } from './ProfileImage'
-// import { Typing } from "typing-effect-reactjs";
 
 export const Intro = () => {
-
-  // const text=document.getElementById("work")
-  // const textLoad=()=>{
-  //   setTimeout(()=>{
-  //     text.textContent="Full Stack Web Developer"
-  //   },0)
-
-  //   setTimeout(()=>{
-  //     text.textContent="Problem Solver"
-  //   },4000)
-
-  //   setTimeout(()=>{
-  //     text.textContent="Front-End Developer"
-  //   },8000)
-  // }
-  // useEffect(()=>{
-  //   textLoad()
-  // })
-
   return (
     <div id='introMain'>
       <ProfileImage/>
@@ -36,17 +16,6 @@ export const Intro = () => {
         <div id='container'>
             <h1 id='work' style={{width:"100%"}}>
               <span>F</span><span>u</span><span>ll</span> <span>S</span><span>t</span><span>a</span><span>c</span><span>k</span> <span>W</span><span>e</span><span>b</span> <span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>
-              {/* <Typing
-                typeSpeed={100}
-                deleteSpeed={100}
-                cursorThickness={.25}
-                cursorColor="#64FFDA"
-                text={[
-                  "Full Stack Web Developer",
-                  "Problem Solver",
-                  "Team Player",
-                ]}
-              /> */}
             </h1>
         </div>
         <p>

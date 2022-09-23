@@ -1,7 +1,5 @@
 import React from 'react'
 import ScrollAnimation from 'react-animate-on-scroll'
-// import "animate.css/animate.compat.css";
-// import "animate.css/animate.min.css";
 
 export const About = () => {
   return (
@@ -24,25 +22,7 @@ export const About = () => {
       <p style={{color:"#6DE39D"}}>With a strong emphasis on "Progressive Enhancement", I look for creative ways to push the boundaries of website front-end code without compromising on browser support and performance.</p>
       <p style={{color:"#96E2D8"}}>In a quest for always keeping myself updated, I read books and attend conferences & meetups.</p>
       </ScrollAnimation>
-{/* <ScrollAnimation animateIn='bounceInRight'
-  animateOut='bounceOutLeft'>
-  <h2>
-    <a href='https://daneden.github.io/animate.css/'>
-      Animate.css
-    </a>
-  </h2>
-</ScrollAnimation>
-<ScrollAnimation animateIn='fadeIn'
-  animateOut='fadeOut'>
-  <h1>
-    React Animate On Scroll
-  </h1>
-  <h2>
-    Using:
-  </h2>
-</ScrollAnimation> */}
-      </div>
-      
+      </div> 
     </div>
   )
 }
