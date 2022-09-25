@@ -21,4 +21,4 @@ There is lot more remaing to make it the best but one day I will make it. This i
 
 ![A test image](portfolio/Images/Intro.png)
 
-## Hope everyone liked it. If you liked it don't forget to give a star.
+## *Hope everyone liked it. If you liked it don't forget to give a star.*
