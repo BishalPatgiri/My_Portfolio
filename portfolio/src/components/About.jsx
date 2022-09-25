@@ -3,8 +3,8 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 export const About = () => {
   return (
-    <div className='about' style={{}}>
-      <div id='titleDiv' style={{}}>
+    <div className='about'>
+      <div id='titleDiv'>
       <ScrollAnimation 
         animateIn='flipInY'
         animateOut='flipOutY'>

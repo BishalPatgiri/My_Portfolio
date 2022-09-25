@@ -19,6 +19,12 @@
   border-top: .2px solid rgb(95, 92, 92);
   border-bottom: .2px solid rgb(95, 92, 92);
 }
+#nav{
+  position: fixed;
+  top: 200px;
+  width:10%;
+  text-align:center
+}
 .list:hover{
   color:#64FFDA; 
 }
@@ -100,7 +106,9 @@
   width: 100%;
 }
 .about{
+  width: 88%;
   display:flex;
+  gap: 3%;
   padding:8% 0%;
   border-bottom:1px solid white;
 }
@@ -113,6 +121,9 @@
  }
  #titleDiv{
   width:22%;
+ }
+ .git{
+  font-size: auto;
  }
 
  .title{
@@ -309,6 +320,9 @@
     border: 1px solid rgb(35, 65, 65);
     font-size: 22px;
   }
+  #nav{
+    width: 50px;
+  }
   #introMain{
     display: block;
     width: 100%;
@@ -327,8 +341,11 @@
   }
   .about{
     display: block;
-    width: 100%;
+    width: 88%;
   }
+  .git{
+    font-size: 14px;
+   }
   .about #des{
     width:90%;
    }

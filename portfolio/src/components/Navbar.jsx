@@ -5,7 +5,7 @@ import {faHackerrank,faLinkedin,faGithub,faFacebook} from "@fortawesome/free-bra
 
 export const Navbar = () => {
   return (
-    <div style={{position: "fixed",top: "200px",width:"10%",textAlign:"center"}}>
+    <div id='nav' style={{}}>
       
         <ul>
           <li className='list'><Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li>
