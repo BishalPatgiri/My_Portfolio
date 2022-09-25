@@ -17,4 +17,8 @@ There is lot more remaing to make it the best but one day I will make it. This i
 - It conatins my intro, about, skill, projects and contact me sections.
 - By clicking on the navbar items we can go that perticuler section of the website.
 
+## The intro section of my portfolio looks like:
+
+![A test image](portfolio/Images/Intro.png)
+
 ## Hope everyone liked it. If you liked it don't forget to give a star.
