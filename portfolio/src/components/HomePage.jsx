@@ -1,6 +1,7 @@
 import React from 'react'
 import { About } from './About'
 import { Contact } from './Contact'
+import { Github } from './Github'
 import { Intro } from './Intro'
 import { Projects } from './Projects'
 import { Skills } from './Skills'
@@ -17,6 +18,9 @@ export const HomePage = () => {
         </div>
         <div id="skills">
           <Skills/>
+        </div>
+        <div id='statics'>
+          <Github/>
         </div>
         <div id="projects">
         <Projects/>

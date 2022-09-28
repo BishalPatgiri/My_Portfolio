@@ -11,6 +11,7 @@ export const Navbar = () => {
           <li className='list'><Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li>
           <li className='list'><Link activeClass='active' to="about" spy={true} smooth={true}>About</Link></li>
           <li className='list'><Link activeClass="active" to="skills" spy={true} smooth={true}>Skills</Link></li>
+          <li className='list'><Link activeClass="active" to="statics" spy={true} smooth={true}>Statistics</Link></li>
           <li className='list'><Link activeClass="active" to="projects" spy={true} smooth={true}>Projects</Link></li>
           <li className='list'><Link activeClass="active" to="contact" spy={true} smooth={true}>Contact</Link></li>
         </ul>

@@ -8,8 +8,7 @@ export const Intro = () => {
       <ProfileImage/>
       <div id="intro">
         <ScrollAnimation 
-        animateIn='flipInY'
-        animateOut='flipOutY'>
+        animateIn='flipInY'>
           <h1 style={{width:"12%"}}><span>H</span><span>i</span><span>,</span></h1>
         </ScrollAnimation>
         <h1 style={{width:"80%"}}><span>I</span> <span>am</span><span>,</span> <span className='defaultColor'>B</span><span>i</span><span>s</span><span>h</span><span>a</span><span>l</span> <span className='defaultColor'>P</span><span>a</span><span>t</span><span>g</span><span>i</span><span>r</span><span>i</span></h1>
