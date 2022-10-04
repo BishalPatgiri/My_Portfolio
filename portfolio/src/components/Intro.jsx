@@ -18,7 +18,7 @@ export const Intro = () => {
             </h1>
         </div>
         <p>
-          Passionate about problem solving, Frontend Web Development. Loves to buid cool projects and work in a team. I want to achieve global recognition and exposure with my skillset, toolset and mindset. I believe in continuous learning and growth.
+          Passionate about problem solving, Frontend Web Development. Loves to build cool projects and work in a team. I want to achieve global recognition and exposure with my skillset, toolset and mindset. I believe in continuous learning and growth.
         </p>
         <div style={{marginTop:"32px"}}>
           <a target={"blank"} style={{border:"1px solid #64FFDA",color:"#64FFDA",padding:"10px",borderRadius:"10px",textDecoration:"none", boxShadow:"#64FFDA 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"}} href="https://drive.google.com/file/d/1_RBqbBLQgdrjdfeBvxLY3z-LV0cSiExV/view">Resume</a>

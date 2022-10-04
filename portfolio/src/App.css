@@ -125,6 +125,20 @@
  .git{
   font-size: auto;
  }
+ #calenderDiv:hover,#git1:hover,#git2:hover{
+  transform: scale(1.04);
+  transition: all 700ms;
+ }
+
+ #gitStatis{
+  display: flex;
+  padding: 4% 10%;
+  gap: 10px;
+ }
+ #git1,#git2{
+  width: 100%;
+  box-shadow :rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ }
 
  .title{
   font-size:3.2em;
@@ -139,6 +153,11 @@
   display:flex;
   padding:10% 0;
   border-bottom:1px solid white;
+}
+
+#barChart{
+  width:58%;
+  margin:auto
 }
 
 #projectRes{
@@ -222,6 +241,17 @@
   align-items: flex-start;
   height: 65%;
 }
+#barChart{
+  width:60%;
+  margin:auto
+}
+#gitStatis{
+  display: block;
+  text-align: center;
+ }
+ #git1{
+  margin-bottom: 20px;
+ }
 }
 
 @media only screen and (max-width: 960px) {
@@ -251,6 +281,10 @@
    #skillDiv p{
     font-size: 15px;
    }
+   #barChart{
+    width:70%;
+    margin:auto
+  }
    #title{
     font-size: 2.8em;
   }
@@ -296,6 +330,10 @@
   font-size: 12px;
   gap: 7%;
  }
+ #barChart{
+  width:80%;
+  margin:auto
+}
 #title{
   font-size: 2.4em;
 }
@@ -346,6 +384,9 @@
   .git{
     font-size: 14px;
    }
+   #git1{
+    margin-bottom: 10px;
+   }
   .about #des{
     width:90%;
    }
@@ -357,6 +398,10 @@
    #skillMain{
     display: block;
    }
+   #barChart{
+    width:95%;
+    margin:auto
+  }
   .customImage{
     height: 50px;
     width: 45px;
@@ -430,6 +475,13 @@
   padding-left: 10%;
 }
 } 
+
+@media only screen and (max-width: 380px){
+  #barChart{
+    width: "100%";
+  }
+}
+
 #intro span{
   cursor: pointer;
 }
