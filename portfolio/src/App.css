@@ -19,6 +19,7 @@
   border-top: .2px solid rgb(95, 92, 92);
   border-bottom: .2px solid rgb(95, 92, 92);
 }
+
 #nav{
   position: fixed;
   top: 200px;
@@ -137,6 +138,7 @@
  }
  #git1,#git2{
   width: 100%;
+  height: 100%;
   box-shadow :rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
  }
 
@@ -151,8 +153,12 @@
 
 #skillMain{
   display:flex;
-  padding:10% 0;
+  padding:8% 0 6% 0;
   border-bottom:1px solid white;
+}
+
+#skillNew{
+  width: 80%;
 }
 
 #barChart{
@@ -161,7 +167,7 @@
 }
 
 #projectRes{
-  width: 78%;
+  width: 85%;
   display:grid;
   grid-template-columns:repeat(2,1fr);
   gap:5%;
@@ -199,7 +205,7 @@
 }
 100%{
   opacity: 0.2;
-  box-shadow: rgba(145, 213, 240, 0.928) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  box-shadow: #91d5f0ed 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   top: 12%;
   left: 5%;
 }
@@ -212,7 +218,7 @@
 #contactMain{
   display:flex;
   justify-content:space-between;
-  padding:6% 0;
+  padding:8% 0;
   border-top:1px solid white;
   flex-direction: row;
 }
@@ -225,13 +231,13 @@
 }
 #skillDiv{
   display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:8%;
+  grid-template-columns:repeat(4,1fr);
+  gap:6%;
   font-size:22px;
   row-gap:30px;
   text-align:center;
-  width:68%;
-  padding:0 4%
+  width:100%;
+  padding:0 5%
 }
 @media only screen and (max-width: 1200px) {
   #profileDiv{
@@ -347,9 +353,13 @@
 .projectDiv>.projectImp{
   height:190px;
 }
-#skillDiv{
-  width: 74%;
-}
+  #skillDiv{
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    gap: 3%;
+    row-gap: 20px;
+    padding-left: 10%;
+  }
 } 
 
 
@@ -473,6 +483,9 @@
   gap: 3%;
   row-gap: 20px;
   padding-left: 10%;
+}
+#skillNew{
+  width: 95%;
 }
 } 
 

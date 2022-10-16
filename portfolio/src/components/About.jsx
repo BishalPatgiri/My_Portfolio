@@ -13,7 +13,8 @@ export const About = () => {
       </div>
       <div id='des' style={{}}>
       <ScrollAnimation 
-      animateIn='bounceInRight'>
+      duration={3.5}
+      animateIn='fadeIn'>
       <p style={{color:"#96E2D8"}}>
       Hello! My name is Bishal Patgiri, I am an Electronics and Communication Engineer by degree. Currently I am doing a Full Stack web development bootcamp from MasaiSchool,Bengaluru. I am a highly passionate front-end developer who loves making some cool designs,creating APIs and creating awasome applications. I am always open to do new things, to learn new new concepts of Frontend development.
       </p>

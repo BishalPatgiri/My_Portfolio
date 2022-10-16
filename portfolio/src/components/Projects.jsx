@@ -2,6 +2,7 @@ import React from 'react'
 import project1 from "../Images/p1.png"
 import project2 from "../Images/p2.png"
 import project3 from "../Images/p3.png"
+import project4 from "../Images/p4.png"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faCss3, faGithub, faHtml5, faReact} from "@fortawesome/free-brands-svg-icons"
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
@@ -9,7 +10,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 export const Projects = () => {
   return (
-    <div style={{padding:"4% 0 8% 0",borderTop:"1px solid white"}}>
+    <div style={{padding:"4% 0 6% 0",borderTop:"1px solid white"}}>
       <div id='titleDiv' style={{}}>
       <ScrollAnimation
         animateIn='flipInY'
@@ -20,6 +21,39 @@ export const Projects = () => {
       </ScrollAnimation>
       </div>
       <div id='projectRes' style={{}}>
+      <ScrollAnimation 
+      animateIn='bounceInRight'
+  
+  duration={1.5}>
+      <ScrollAnimation 
+      duration={4}
+      animateIn='fadeIn'>
+      <div className='projectDiv'>
+          <img className='projectImp' src={project4} alt="" />
+          <p style={{fontSize:"25px",fontStyle:"italic"}}>booking.com Clone</p>
+          <p>Booking.com is a Dutch online travel agency for lodging reservations & other travel products, and a subsidiary of Booking Holdings. Along with that you can directly book your flits here. The website has over 28 million listings
+          </p>
+          <div style={{marginBottom:"20px"}}>
+          <FontAwesomeIcon style={{color:"white",fontSize:"42px",marginRight:"10px"}} icon={faGithub}></FontAwesomeIcon> 
+          <FontAwesomeIcon style={{color:"tomato",fontSize:"42px",marginRight:"10px"}} icon={faHtml5}></FontAwesomeIcon>
+          <FontAwesomeIcon style={{color:"yellowgreen",fontSize:"42px",marginRight:"10px"}} icon={faCss3}></FontAwesomeIcon>
+          <FontAwesomeIcon style={{color:"purple",fontSize:"42px",marginRight:"10px"}} icon={faReact}></FontAwesomeIcon>
+          </div>
+          <div style={{display:"flex",justifyContent:"space-between"}}>
+          <a target={"blank"} href="https://github.com/BishalPatgiri/Naturesbasket-Clone" style={{textDecoration:"none",border:"1px solid white",color:"white",padding:"6px",borderRadius:"8px"}}>
+            <FontAwesomeIcon style={{color:"white",fontSize:"25px",marginRight:"10px"}} icon={faGithub}></FontAwesomeIcon> GitHub
+            </a>
+            <a target={"blank"} href="https://beautiful-empanada-207bf8.netlify.app/" style={{textDecoration:"none",color:"black",backgroundColor:"#4BCFD4",padding:"6px 10px",borderRadius:"8px",fontWeight:"bold"}}>Live
+            <FontAwesomeIcon style={{marginLeft:"10px",fontSize:"22px"}} icon={faArrowUpRightFromSquare}></FontAwesomeIcon></a>
+          </div>
+        </div>
+      </ScrollAnimation>
+      </ScrollAnimation>
+      <ScrollAnimation animateIn='bounceInLeft'
+      animateOut='bounceOutRight'>
+      <ScrollAnimation 
+      duration={4}
+      animateIn='fadeIn'>
       <div className='projectDiv'>
           <img className='projectImp' src={project3} alt="" />
           <p style={{fontSize:"25px",fontStyle:"italic"}}>Naturesbascket.com Clone</p>
@@ -38,6 +72,13 @@ export const Projects = () => {
             <FontAwesomeIcon style={{marginLeft:"10px",fontSize:"22px"}} icon={faArrowUpRightFromSquare}></FontAwesomeIcon></a>
           </div>
         </div>
+      </ScrollAnimation>
+      </ScrollAnimation>
+      <ScrollAnimation animateIn='bounceInRight'
+      duration={1.5}>
+      <ScrollAnimation 
+      duration={4}
+      animateIn='fadeIn'>
         <div className='projectDiv'>
           <img className='projectImp' src={project2} alt="" />
           <p style={{fontSize:"25px",fontStyle:"italic"}}>Geekbuying.com Clone</p>
@@ -56,6 +97,13 @@ export const Projects = () => {
             <FontAwesomeIcon style={{marginLeft:"10px",fontSize:"22px"}} icon={faArrowUpRightFromSquare} /></a>
           </div>
         </div>
+        </ScrollAnimation>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='bounceInLeft'
+        animateOut='bounceOutRight'>
+        <ScrollAnimation 
+      duration={5}
+      animateIn='fadeIn'>
         <div className='projectDiv'>
           <img className='projectImp' src={project1} alt="" />
           <p style={{fontSize:"25px",fontStyle:"italic"}}>Sephora.nnnow.com Clone</p>
@@ -73,6 +121,8 @@ export const Projects = () => {
             <a target={"blank"} href="https://storied-marzipan-b1c3f6.netlify.app/" style={{textDecoration:"none",color:"black",backgroundColor:"#4BCFD4",padding:"6px 10px",borderRadius:"8px",fontWeight:"bold"}}>Live<FontAwesomeIcon style={{marginLeft:"10px",fontSize:"22px"}} icon={faArrowUpRightFromSquare}></FontAwesomeIcon></a>
           </div>
         </div>
+        </ScrollAnimation>
+        </ScrollAnimation>
       </div>
     </div>
   )
