@@ -1,6 +1,8 @@
 import React from 'react'
 import ScrollAnimation from 'react-animate-on-scroll'
 import "animate.css/animate.compat.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 export const Contact = () => {
   const handleSend=(e)=>{
@@ -19,6 +21,8 @@ export const Contact = () => {
       <ScrollAnimation 
       duration={3.5}
       animateIn='fadeIn'>
+        <p style={{display:"flex",gap:"10px"}}><FontAwesomeIcon icon={faPhone} />8638299172</p>
+        <p style={{display:"flex",gap:"10px"}}><FontAwesomeIcon icon={faEnvelope} />bishalpatgiri67@gmail.com</p>
       <p style={{marginBottom:"40px",fontFamily: "Open Sans",fontSize:"18px",lineHeight:"26px"}}>I'm interested in making new projects,freelance opportunities - especially ambitious or large projects. However, if you have other request or question, don't hesitate to use the form.</p>
       </ScrollAnimation>
       <form action="">

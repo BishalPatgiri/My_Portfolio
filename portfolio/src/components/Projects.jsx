@@ -40,10 +40,10 @@ export const Projects = () => {
           <FontAwesomeIcon style={{color:"purple",fontSize:"42px",marginRight:"10px"}} icon={faReact}></FontAwesomeIcon>
           </div>
           <div style={{display:"flex",justifyContent:"space-between"}}>
-          <a target={"blank"} href="https://github.com/BishalPatgiri/Naturesbasket-Clone" style={{textDecoration:"none",border:"1px solid white",color:"white",padding:"6px",borderRadius:"8px"}}>
+          <a target={"blank"} href="https://github.com/BishalPatgiri/Clone-of-Booking.com" style={{textDecoration:"none",border:"1px solid white",color:"white",padding:"6px",borderRadius:"8px"}}>
             <FontAwesomeIcon style={{color:"white",fontSize:"25px",marginRight:"10px"}} icon={faGithub}></FontAwesomeIcon> GitHub
             </a>
-            <a target={"blank"} href="https://beautiful-empanada-207bf8.netlify.app/" style={{textDecoration:"none",color:"black",backgroundColor:"#4BCFD4",padding:"6px 10px",borderRadius:"8px",fontWeight:"bold"}}>Live
+            <a target={"blank"} href="https://booking-com-clone.netlify.app/" style={{textDecoration:"none",color:"black",backgroundColor:"#4BCFD4",padding:"6px 10px",borderRadius:"8px",fontWeight:"bold"}}>Live
             <FontAwesomeIcon style={{marginLeft:"10px",fontSize:"22px"}} icon={faArrowUpRightFromSquare}></FontAwesomeIcon></a>
           </div>
         </div>
