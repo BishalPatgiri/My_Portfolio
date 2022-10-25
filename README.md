@@ -28,5 +28,7 @@ There is lot more remaing to make it the best but one day I will make it. This i
 ### The Skils section:
 ![Screenshot (1467)](https://user-images.githubusercontent.com/103960628/197123179-1e2dabe6-6548-4a5f-82cb-6411295be0b4.png)
 
+### My Statistics section:
+![Screenshot (1468)](https://user-images.githubusercontent.com/103960628/197805510-f1c7f800-2a54-443f-9615-5a50aacb4e3d.png)
 
 ## *Hope everyone liked it. If you liked it don't forget to give a star.*
