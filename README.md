@@ -31,4 +31,8 @@ There is lot more remaing to make it the best but one day I will make it. This i
 ### My Statistics section:
 ![Screenshot (1468)](https://user-images.githubusercontent.com/103960628/197805510-f1c7f800-2a54-443f-9615-5a50aacb4e3d.png)
 
+### The Project section:
+![Screenshot (1469)](https://user-images.githubusercontent.com/103960628/197805803-3ea580d2-b3e1-4cb0-900d-2eb7b04d6a2a.png)
+
+
 ## *Hope everyone liked it. If you liked it don't forget to give a star.*
