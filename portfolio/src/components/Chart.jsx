@@ -22,17 +22,6 @@ ChartJS.register(
 
 
 export default function Chart() {
-    // const options = {
-    //     responsive: true,
-    //     plugins: {
-    //       legend: {
-    //         position: 'top',
-    //       },
-    //       title: {
-    //         display: true,
-    //       },
-    //     },
-    //   };
       
       const labels = ['HTML', 'CSS', 'JavaScript', 'ReactJS', 'Redux', 'NodeJS', 'ExpressJS','MongoDB'];
       

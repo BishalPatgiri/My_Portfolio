@@ -15,8 +15,7 @@ export const Skills = () => {
         <div id="skillMain">
           <div id='titleDiv'>
             <ScrollAnimation
-              animateIn='flipInY'
-              animateOut='flipOutY'>
+              animateIn='flipInY'>
               <h1 id='title' className='title'>The Skills I have</h1>
             </ScrollAnimation>
           </div>

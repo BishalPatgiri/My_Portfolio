@@ -13,8 +13,7 @@ export const Projects = () => {
     <div style={{padding:"4% 0 6% 0",borderTop:"1px solid white"}}>
       <div id='titleDiv' style={{}}>
       <ScrollAnimation
-        animateIn='flipInY'
-        animateOut='flipOutY'>
+        animateIn='flipInY'>
       <h1 id='title' style={{marginBottom:"20px"}} className='title'>
         My Projects
       </h1>

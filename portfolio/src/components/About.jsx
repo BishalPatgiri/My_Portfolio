@@ -6,8 +6,7 @@ export const About = () => {
     <div className='about'>
       <div id='titleDiv'>
       <ScrollAnimation 
-        animateIn='flipInY'
-        animateOut='flipOutY'>
+        animateIn='flipInY'>
           <h1 id='title' className='title'>Who am I ?</h1>
       </ScrollAnimation>
       </div>

@@ -11,8 +11,7 @@ export const Github = () => {
       animateIn='fadeIn'>
     <div id='titleDiv' style={{width:"30%"}}>
       <ScrollAnimation
-        animateIn='flipInY'
-        animateOut='flipOutY'>
+        animateIn='flipInY'>
       <h1 id='title' style={{marginBottom:"20px"}} className='title'>
         My Statistics
       </h1>
@@ -37,6 +36,7 @@ export const Github = () => {
       <ScrollAnimation 
       duration={1.5}
         animateIn='bounceInLeft'
+        animateOut='bounceOutRight'
         >
       <img height="100%" id='git2'  src="https://github-readme-stats.vercel.app/api?username=bishalpatgiri&show_icons=true&locale=en" alt="bishalpatgiri" />
       </ScrollAnimation>
