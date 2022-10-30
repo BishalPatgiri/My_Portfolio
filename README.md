@@ -22,4 +22,20 @@ There is lot more remaing to make it the best but one day I will make it. This i
 
 ![A test image](portfolio/Images/Intro.png)
 
+### The about section:
+![Screenshot (1466)](https://user-images.githubusercontent.com/103960628/197122607-c40650a3-3094-4e81-b9aa-48da4770ad11.png)
+
+### The Skils section:
+![Screenshot (1467)](https://user-images.githubusercontent.com/103960628/197123179-1e2dabe6-6548-4a5f-82cb-6411295be0b4.png)
+
+### My Statistics section:
+![Screenshot (1468)](https://user-images.githubusercontent.com/103960628/197805510-f1c7f800-2a54-443f-9615-5a50aacb4e3d.png)
+
+### The Project section:
+![Screenshot (1469)](https://user-images.githubusercontent.com/103960628/197805803-3ea580d2-b3e1-4cb0-900d-2eb7b04d6a2a.png)
+
+### The Contact Section
+![Screenshot (1470)](https://user-images.githubusercontent.com/103960628/198085587-6838e309-567d-41a5-9cb1-33c128364a15.png)
+
+
 ## *Hope everyone liked it. If you liked it don't forget to give a star.*
