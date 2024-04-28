@@ -1,5 +1,5 @@
 <p align="center">
-<img height="150" width="300"src="/portfolio/public/LogoMe.png"/>
+<img height="150" width="300"src="/public/LogoMe.png"/>
 </p>
 
 # Bishal_Patgiri_Portfolio
